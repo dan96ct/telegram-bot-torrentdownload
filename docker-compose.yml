@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  bottorrent:
+    image: dan96ct/telegram-bot-torrentdownload
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
